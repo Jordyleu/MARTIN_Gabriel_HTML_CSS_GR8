@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main{
+    display: flex;
+    background-color: pink;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    background-color: purple;
+    width: 100%;
+}
+#parti_bas{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: plum;
+    width: 100%s;
+}
+@media screen and (max-width: 768px){
+        main{
+            background-color: plum;
+        }
+        #parti_bas{
+            background-color: pink;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            display: none;
+        }
+}

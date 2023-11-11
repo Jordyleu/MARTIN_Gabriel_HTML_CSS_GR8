@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.kirito {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.asuna {
+    display: flex;
+    background-color: pink;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.personnage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+header{
+    display: flex;
+    background-color: cyan;
+    justify-content: center;
+    width: 100%;
+}
+#histoire{
+    background-color: darkturquoise;
+    width: 100%;
+}
+.imgasuna{
+    width: 130%;
+}
+footer{
+    background-color: cyan;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .kirito{
+        background-color: white;
+        color: black;
+    }
+    
+}

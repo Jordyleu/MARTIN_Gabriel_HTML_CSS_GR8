@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+main {
+    display: flex;
+    background-color: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+#parti_bas{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: darkcyan;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+        main{
+            background-color: darkcyan;
+        }
+        #parti_bas{
+            background-color: gray;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        img{
+            display: none;
+        }
+}
